@@ -17,7 +17,6 @@ function Login() {
       _type: "user",
       userName: name,
       image: picture,
-      //.s
     };
     console.log("SUCCESS");
     client.createIfNotExists(doc).then(() => {
